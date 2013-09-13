@@ -1,0 +1,9 @@
+name:  Foo
+version: 0.1
+cabal-version: >= 1.2
+build-type: Simple
+
+executable Funcoop
+    main-is: Main.hs
+    hs-source-dirs: src
+    build-depends: base, transformers, parsec, containers
